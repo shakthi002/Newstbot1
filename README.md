@@ -20,3 +20,6 @@ The chatbot is powered by various technologies, including Beautiful Soup for web
 - **RAG Pipeline:** Implements the Langchain framework for an advanced Retrieval-Augmented Generation pipeline.
 - **Embeddings:** Leverages Cohere embeddings for Pinecone vector database, enhancing data representation.
 - **Streamlit Deployment:** The chatbot is deployed using Streamlit, providing an interactive and user-friendly interface.
+
+## Deployed APP Link
+https://newstbot1-tzpoat8eyhjp7rvrlsybbq.streamlit.app/
