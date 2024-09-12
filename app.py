@@ -101,8 +101,8 @@ files = os.listdir('files')
 if today not in files:
     with st.spinner("Scraping data..."):
             scrape('files/'+today)
-    vector_embedding("files\\"+today)
-vector_embedding("files\\"+today)
+    vector_embedding("./files/"+today)
+vector_embedding("./files/"+today)
     
 if "messages" not in st.session_state:
     st.session_state.messages = []
